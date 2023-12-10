@@ -20,6 +20,18 @@ currently the only supported platform.
 *If the remote host runs OpenSSH, `PermitTunnel` does not have to be
 enabled as `sshtun` does not utilize OpenSSH tun tunneling.*
 
+## Building and installing
+
+Since `sshtun` contains an embedded helper binary (`tunreadwriter`),
+it is not possible to execute `go install` to build and install
+`sshtun`, instead, a `Makefile` is provided. The following command
+will build the helper binary, `sshtun` itself, and install it under
+`/usr/local/sbin` (prepends the `install` command with `sudo`)...
+
+```consoltext
+$ make clean install
+```
+
 ## How
 
 `sshtun` automates local and remote configuration of `tun` devices and
@@ -34,7 +46,7 @@ set of link networks between a larger virtual network you will have to
 write your own routing scripts.
 
 Both `sshtun` and the remote traffic-forwarder (`tunreadwriter`) need
-to run as privileged users. `sshtun` is designed to run *setuid root*
+to run as a privileged user. `sshtun` is designed to run *setuid root*
 and will escalate to the `root` user only when necessary while the
 `tunreadwriter` is executed via `sudo` on the remote host through an
 SSH session.

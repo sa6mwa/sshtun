@@ -5,22 +5,23 @@
 //go:build linux
 // +build linux
 
-package unix
+package tun
 
 import (
 	"bytes"
 	"net"
+	"syscall"
 	"testing"
 	"unsafe"
 )
 
 // An ifreqUnion is shorthand for a byte array matching the
 // architecture-dependent size of an ifreq's union field.
-type ifreqUnion = [len(ifreq{}.Ifru)]byte
+type ifreqUnion = [len(Ifreq{}.Ifru)]byte
 
 func TestNewIfreq(t *testing.T) {
 	// Interface name too long.
-	if _, err := NewIfreq("abcdefghijklmnop"); err != EINVAL {
+	if _, err := NewIfreq("abcdefghijklmnop"); err != syscall.EINVAL {
 		t.Fatalf("expected error EINVAL, but got: %v", err)
 	}
 }
@@ -28,7 +29,7 @@ func TestNewIfreq(t *testing.T) {
 func TestIfreqSize(t *testing.T) {
 	// Ensure ifreq (generated) and Ifreq/ifreqData (hand-written to create a
 	// safe wrapper and store a pointer field) are identical in size.
-	want := unsafe.Sizeof(ifreq{})
+	want := unsafe.Sizeof(Ifreq{})
 	if got := unsafe.Sizeof(Ifreq{}); want != got {
 		t.Fatalf("unexpected Ifreq size: got: %d, want: %d", got, want)
 	}
@@ -55,8 +56,8 @@ func TestIfreqWithData(t *testing.T) {
 	ifrd := ifr.withData(unsafe.Pointer(&want[0]))
 
 	// Ensure the memory of the original Ifreq was not modified by SetData.
-	if ifr.raw.Ifru != (ifreqUnion{}) {
-		t.Fatalf("ifreq was unexpectedly modified: % #x", ifr.raw.Ifru)
+	if ifr.Ifru != (ifreqUnion{}) {
+		t.Fatalf("ifreq was unexpectedly modified: % #x", ifr.Ifru)
 	}
 
 	got := *(*[5]byte)(ifrd.data)
@@ -83,7 +84,7 @@ func TestIfreqInet4Addr(t *testing.T) {
 		want[1] = 0x00
 	}
 
-	if got := ifr.raw.Ifru; want != got {
+	if got := ifr.Ifru; want != got {
 		t.Fatalf("unexpected ifreq sockaddr bytes:\n got: % #x\nwant: % #x", got, want)
 	}
 
@@ -122,7 +123,7 @@ func TestIfreqUint16(t *testing.T) {
 		want[1] = 0x01
 	}
 
-	if got := ifr.raw.Ifru; want != got {
+	if got := ifr.Ifru; want != got {
 		t.Fatalf("unexpected ifreq uint16 bytes:\n got: % #x\nwant: % #x", got, want)
 	}
 
@@ -150,7 +151,7 @@ func TestIfreqUint32(t *testing.T) {
 		want[3] = 0x01
 	}
 
-	if got := ifr.raw.Ifru; want != got {
+	if got := ifr.Ifru; want != got {
 		t.Fatalf("unexpected ifreq uint32 bytes:\n got: % #x\nwant: % #x", got, want)
 	}
 

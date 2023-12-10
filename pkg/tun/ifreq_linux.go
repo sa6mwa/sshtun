@@ -22,10 +22,10 @@ const (
 // Helpers for dealing with ifreq since it contains a union and thus requires a
 // lot of unsafe.Pointer casts to use properly.
 
-// An Ifreq is a type-safe wrapper around the raw ifreq struct. An Ifreq
-// contains an interface name and a union of arbitrary data which can be
-// accessed using the Ifreq's methods. To create an Ifreq, use the NewIfreq
-// function.
+// An Ifreq is (not a) type-safe wrapper around the raw ifreq
+// struct. An Ifreq contains an interface name and a union of
+// arbitrary data which can be accessed using the Ifreq's methods. To
+// create an Ifreq, use the NewIfreq function.
 //
 // Use the Name method to access the stored interface name. The union data
 // fields can be get and set using the following methods:
