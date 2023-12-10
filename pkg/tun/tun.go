@@ -103,15 +103,14 @@ func (t *TUN) SetMTU(mtu int) error {
 
 func (t *TUN) Close() error {
 	e1 := t.File.Close()
-	e2 := syscall.Close(t.Fd)
-	if e1 != nil && e2 != nil {
-		return fmt.Errorf("%w: %w", e1, e2)
-	} else if e1 != nil {
-		return e1
-	} else if e2 != nil {
-		return e2
+	if e1 == nil {
+		return nil
 	}
-	return nil
+	e2 := syscall.Close(t.Fd)
+	if e2 != nil {
+		return fmt.Errorf("unable to close both TUN os.File and int fd %d: %w: %w", t.Fd, e1, e2)
+	}
+	return fmt.Errorf("unable to close TUN os.File: %w", e1)
 }
 
 func (t *TUN) ConfigureInterface(ipv4_address_with_cidr string) error {
