@@ -12,7 +12,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/sa6mwa/sshtun/pkg/tun"
+	"github.com/sa6mwa/sshtun/tun"
 )
 
 var (

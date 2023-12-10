@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"github.com/alessio/shellescape"
-	"github.com/sa6mwa/sshtun/internal/pkg/crand"
-	"github.com/sa6mwa/sshtun/pkg/tun"
+	"github.com/sa6mwa/sshtun/internal/crand"
+	"github.com/sa6mwa/sshtun/tun"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/agent"
 )
