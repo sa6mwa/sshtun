@@ -1,0 +1,158 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:34ae8c56-6619-4d3a-b4f6-5b12c8d38f5d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-03-03T22:10:49+01:00",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-gomod",
+        "version": "v1.6.0",
+        "hashes": [
+          {
+            "alg": "MD5",
+            "content": "60a6f5c913bdb6935f5b4342d77767e2"
+          },
+          {
+            "alg": "SHA-1",
+            "content": "ec96c64e993f1ccc611faa51272833b861f02f0a"
+          },
+          {
+            "alg": "SHA-256",
+            "content": "4145b2daea55b562b30af01e5af4bb650f84a5523d1fadeb2e8bab9c5ab08d41"
+          },
+          {
+            "alg": "SHA-384",
+            "content": "b20ef6ff1308900b2e1eb53021a89715b37da2f45d927c19e52becbf587df0555b81ed35a1a7b3eabfefa929527d1a44"
+          },
+          {
+            "alg": "SHA-512",
+            "content": "cfcaa2ca3d61e6f6f2ae2784d19fdee36cc43627c1ccc980a65b18e674923f7be5eeb19bd9ea157d5ca5159fd3c0819524b5be9bea15103416623064d061fb57"
+          }
+        ],
+        "externalReferences": [
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-gomod",
+            "type": "vcs"
+          },
+          {
+            "url": "https://cyclonedx.org",
+            "type": "website"
+          }
+        ]
+      }
+    ],
+    "component": {
+      "bom-ref": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.0?type=module#cmd/sshtun",
+      "type": "application",
+      "name": "github.com/sa6mwa/sshtun",
+      "version": "v0.1.0",
+      "purl": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.0?type=module\u0026goos=linux\u0026goarch=amd64#cmd/sshtun",
+      "externalReferences": [
+        {
+          "url": "https://github.com/sa6mwa/sshtun",
+          "type": "vcs"
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:gomod:build:env:CGO_ENABLED",
+          "value": "0"
+        },
+        {
+          "name": "cdx:gomod:build:env:GOARCH",
+          "value": "amd64"
+        },
+        {
+          "name": "cdx:gomod:build:env:GOOS",
+          "value": "linux"
+        },
+        {
+          "name": "cdx:gomod:build:env:GOVERSION",
+          "value": "go1.22.0"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:golang/github.com/alessio/shellescape@v1.4.2?type=module",
+      "type": "library",
+      "name": "github.com/alessio/shellescape",
+      "version": "v1.4.2",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3073df694f9d749d3f6d85a98087949d052a2ab949d52ec17c460f338b84a0cd"
+        }
+      ],
+      "purl": "pkg:golang/github.com/alessio/shellescape@v1.4.2?type=module\u0026goos=linux\u0026goarch=amd64",
+      "externalReferences": [
+        {
+          "url": "https://github.com/alessio/shellescape",
+          "type": "vcs"
+        }
+      ],
+      "evidence": {
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.20.0?type=module",
+      "type": "library",
+      "name": "golang.org/x/crypto",
+      "version": "v0.20.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8e600c249657af92a20b0d3975f60af509ea6aa28b6178a3536de5b0475c42a8"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/crypto@v0.20.0?type=module\u0026goos=linux\u0026goarch=amd64",
+      "evidence": {
+        "licenses": [
+          {
+            "license": {
+              "id": "BSD-3-Clause"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.0?type=module#cmd/sshtun",
+      "dependsOn": [
+        "pkg:golang/github.com/alessio/shellescape@v1.4.2?type=module",
+        "pkg:golang/golang.org/x/crypto@v0.20.0?type=module"
+      ]
+    },
+    {
+      "ref": "pkg:golang/github.com/alessio/shellescape@v1.4.2?type=module"
+    },
+    {
+      "ref": "pkg:golang/golang.org/x/crypto@v0.20.0?type=module"
+    }
+  ]
+}
