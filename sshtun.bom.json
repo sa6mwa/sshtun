@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:81a52039-e3ed-4fa2-917a-51313ed27ae5",
+  "serialNumber": "urn:uuid:3720e5d6-8296-4f3c-8ae0-d700a90b2ed9",
   "version": 1,
   "metadata": {
-    "timestamp": "2024-03-03T22:23:12+01:00",
+    "timestamp": "2024-03-04T18:59:39+01:00",
     "tools": [
       {
         "vendor": "CycloneDX",
@@ -46,11 +46,11 @@
       }
     ],
     "component": {
-      "bom-ref": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.1-0.20231012233000-0bcf86050749?type=module#cmd/sshtun",
+      "bom-ref": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.1?type=module#cmd/sshtun",
       "type": "application",
       "name": "github.com/sa6mwa/sshtun",
-      "version": "v0.1.1-0.20231012233000-0bcf86050749",
-      "purl": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.1-0.20231012233000-0bcf86050749?type=module\u0026goos=linux\u0026goarch=amd64#cmd/sshtun",
+      "version": "v0.1.1",
+      "purl": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.1?type=module\u0026goos=linux\u0026goarch=amd64#cmd/sshtun",
       "externalReferences": [
         {
           "url": "https://github.com/sa6mwa/sshtun",
@@ -79,26 +79,26 @@
         {
           "type": "library",
           "name": "github.com/sa6mwa/sshtun",
-          "version": "v0.1.1-0.20231012233000-0bcf86050749",
-          "purl": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.1-0.20231012233000-0bcf86050749?type=package"
+          "version": "v0.1.1",
+          "purl": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.1?type=package"
         },
         {
           "type": "library",
           "name": "github.com/sa6mwa/sshtun/cmd/sshtun",
-          "version": "v0.1.1-0.20231012233000-0bcf86050749",
-          "purl": "pkg:golang/github.com/sa6mwa/sshtun/cmd/sshtun@v0.1.1-0.20231012233000-0bcf86050749?type=package"
+          "version": "v0.1.1",
+          "purl": "pkg:golang/github.com/sa6mwa/sshtun/cmd/sshtun@v0.1.1?type=package"
         },
         {
           "type": "library",
           "name": "github.com/sa6mwa/sshtun/internal/pkg/crand",
-          "version": "v0.1.1-0.20231012233000-0bcf86050749",
-          "purl": "pkg:golang/github.com/sa6mwa/sshtun/internal/pkg/crand@v0.1.1-0.20231012233000-0bcf86050749?type=package"
+          "version": "v0.1.1",
+          "purl": "pkg:golang/github.com/sa6mwa/sshtun/internal/pkg/crand@v0.1.1?type=package"
         },
         {
           "type": "library",
           "name": "github.com/sa6mwa/sshtun/pkg/tun",
-          "version": "v0.1.1-0.20231012233000-0bcf86050749",
-          "purl": "pkg:golang/github.com/sa6mwa/sshtun/pkg/tun@v0.1.1-0.20231012233000-0bcf86050749?type=package"
+          "version": "v0.1.1",
+          "purl": "pkg:golang/github.com/sa6mwa/sshtun/pkg/tun@v0.1.1?type=package"
         }
       ],
       "evidence": {
@@ -226,7 +226,7 @@
   ],
   "dependencies": [
     {
-      "ref": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.1-0.20231012233000-0bcf86050749?type=module#cmd/sshtun",
+      "ref": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.1?type=module#cmd/sshtun",
       "dependsOn": [
         "pkg:golang/github.com/alessio/shellescape@v1.4.2?type=module",
         "pkg:golang/golang.org/x/crypto@v0.20.0?type=module"

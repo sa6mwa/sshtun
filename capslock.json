@@ -1,0 +1,5199 @@
+{
+	"capabilityInfo":  [
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open$1 (*log/slog.Logger).Debug (*log/slog.Logger).log (*log/slog.defaultHandler).Handle log.init#1$1 (*log.Logger).output (*os.File).Write",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open$1"
+				},
+				{
+					"name":  "(*log/slog.Logger).Debug",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "330",
+						"column":  "15"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "200",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.defaultHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "log.init#1$1",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "117",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(*log.Logger).output",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "251",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*os.File).Write",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "245",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$1 (*log/slog.Logger).Error (*log/slog.Logger).log (*log/slog.defaultHandler).Handle log.init#1$1 (*log.Logger).output (*os.File).Write",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$1"
+				},
+				{
+					"name":  "(*log/slog.Logger).Error",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "477",
+						"column":  "15"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "230",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.defaultHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "log.init#1$1",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "117",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(*log.Logger).output",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "251",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*os.File).Write",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "245",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$2 (*log/slog.Logger).Error (*log/slog.Logger).log (*log/slog.defaultHandler).Handle log.init#1$1 (*log.Logger).output (*os.File).Write",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$2"
+				},
+				{
+					"name":  "(*log/slog.Logger).Error",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "482",
+						"column":  "15"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "230",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.defaultHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "log.init#1$1",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "117",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(*log.Logger).output",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "251",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*os.File).Write",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "245",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1 (*github.com/sa6mwa/sshtun.SSHTUN).Open github.com/sa6mwa/sshtun/pkg/tun.CreateTUN os.NewFile",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "230",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun/pkg/tun.CreateTUN",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "344",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "os.NewFile",
+					"site":  {
+						"filename":  "tun.go",
+						"line":  "87",
+						"column":  "21"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "github.com/sa6mwa/sshtun.CreateFile os.MkdirAll",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.CreateFile"
+				},
+				{
+					"name":  "os.MkdirAll",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "271",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "github.com/sa6mwa/sshtun.LoadAndSave (*github.com/sa6mwa/sshtun.Tunnels).SaveConfig os.MkdirAll",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.LoadAndSave"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).SaveConfig",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "180",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "os.MkdirAll",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "199",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "github.com/sa6mwa/sshtun.LoadConfig os.Open",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.LoadConfig"
+				},
+				{
+					"name":  "os.Open",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "145",
+						"column":  "19"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "github.com/sa6mwa/sshtun.LoadConfigOrReturnDefault github.com/sa6mwa/sshtun.LoadConfig os.Open",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.LoadConfigOrReturnDefault"
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun.LoadConfig",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "165",
+						"column":  "27"
+					}
+				},
+				{
+					"name":  "os.Open",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "145",
+						"column":  "19"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "github.com/sa6mwa/sshtun.StartKeepalive (*log/slog.Logger).Debug (*log/slog.Logger).log (*log/slog.defaultHandler).Handle log.init#1$1 (*log.Logger).output (*os.File).Write",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.StartKeepalive"
+				},
+				{
+					"name":  "(*log/slog.Logger).Debug",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "700",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "200",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.defaultHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "log.init#1$1",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "117",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(*log.Logger).output",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "251",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*os.File).Write",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "245",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Became).Become (*github.com/sa6mwa/sshtun.SSHTUN).Become (*log/slog.Logger).Debug (*log/slog.Logger).log (*log/slog.defaultHandler).Handle log.init#1$1 (*log.Logger).output (*os.File).Write",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Became).Become"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Become",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "674",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).Debug",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "644",
+						"column":  "13"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "200",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.defaultHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "log.init#1$1",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "117",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(*log.Logger).output",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "251",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*os.File).Write",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "245",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Became).Unbecome (*log/slog.Logger).Debug (*log/slog.Logger).log (*log/slog.defaultHandler).Handle log.init#1$1 (*log.Logger).output (*os.File).Write",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Became).Unbecome"
+				},
+				{
+					"name":  "(*log/slog.Logger).Debug",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "662",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "200",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.defaultHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "log.init#1$1",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "117",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(*log.Logger).output",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "251",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*os.File).Write",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "245",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Become (*log/slog.Logger).Debug (*log/slog.Logger).log (*log/slog.defaultHandler).Handle log.init#1$1 (*log.Logger).output (*os.File).Write",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Become"
+				},
+				{
+					"name":  "(*log/slog.Logger).Debug",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "644",
+						"column":  "13"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "200",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.defaultHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "log.init#1$1",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "117",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(*log.Logger).output",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "251",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*os.File).Write",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "245",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Dial os.ReadFile",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Dial"
+				},
+				{
+					"name":  "os.ReadFile",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "601",
+						"column":  "32"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open github.com/sa6mwa/sshtun/pkg/tun.CreateTUN os.NewFile",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open"
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun/pkg/tun.CreateTUN",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "344",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "os.NewFile",
+					"site":  {
+						"filename":  "tun.go",
+						"line":  "87",
+						"column":  "21"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling (*log/slog.Logger).Info (*log/slog.Logger).log (*log/slog.defaultHandler).Handle log.init#1$1 (*log.Logger).output (*os.File).Write",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling"
+				},
+				{
+					"name":  "(*log/slog.Logger).Info",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "469",
+						"column":  "12"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "210",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.defaultHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "log.init#1$1",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "117",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(*log.Logger).output",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "251",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*os.File).Write",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "245",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote (*log/slog.Logger).Info (*log/slog.Logger).log (*log/slog.defaultHandler).Handle log.init#1$1 (*log.Logger).output (*os.File).Write",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote"
+				},
+				{
+					"name":  "(*log/slog.Logger).Info",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "516",
+						"column":  "12"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "210",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.defaultHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "log.init#1$1",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "117",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(*log.Logger).output",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "251",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*os.File).Write",
+					"site":  {
+						"filename":  "log.go",
+						"line":  "245",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll (*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1 (*github.com/sa6mwa/sshtun.SSHTUN).Open github.com/sa6mwa/sshtun/pkg/tun.CreateTUN os.NewFile",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "228",
+						"column":  "3"
+					}
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "230",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun/pkg/tun.CreateTUN",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "344",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "os.NewFile",
+					"site":  {
+						"filename":  "tun.go",
+						"line":  "87",
+						"column":  "21"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_FILES",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).SaveConfig os.MkdirAll",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).SaveConfig"
+				},
+				{
+					"name":  "os.MkdirAll",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "199",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_NETWORK",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open$2 (*golang.org/x/crypto/ssh.connection).Close (*net.IPConn).Close (*net.conn).Close",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open$2"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connection).Close",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "378",
+						"column":  "15"
+					}
+				},
+				{
+					"name":  "(*net.IPConn).Close",
+					"site":  {
+						"filename":  "connection.go",
+						"line":  "97",
+						"column":  "29"
+					}
+				},
+				{
+					"name":  "(*net.conn).Close"
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_NETWORK",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1 (*github.com/sa6mwa/sshtun.SSHTUN).Open (net.pipeAddr).String",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "230",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "(net.pipeAddr).String",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "409",
+						"column":  "216"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_NETWORK",
+			"depPath":  "github.com/sa6mwa/sshtun.StartKeepalive (net.pipeAddr).String",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.StartKeepalive"
+				},
+				{
+					"name":  "(net.pipeAddr).String",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "700",
+						"column":  "85"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_NETWORK",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Dial net.Dial",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Dial"
+				},
+				{
+					"name":  "net.Dial",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "588",
+						"column":  "24"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_NETWORK",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open (net.pipeAddr).String",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open"
+				},
+				{
+					"name":  "(net.pipeAddr).String",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "409",
+						"column":  "216"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_NETWORK",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling (net.pipeAddr).String",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling"
+				},
+				{
+					"name":  "(net.pipeAddr).String",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "469",
+						"column":  "134"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_NETWORK",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll (*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1 (*github.com/sa6mwa/sshtun.SSHTUN).Open (net.pipeAddr).String",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "228",
+						"column":  "3"
+					}
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "230",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "(net.pipeAddr).String",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "409",
+						"column":  "216"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_READ_SYSTEM_STATE",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1 (*github.com/sa6mwa/sshtun.SSHTUN).Open os.Geteuid",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "230",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "os.Geteuid",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "335",
+						"column":  "15"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_READ_SYSTEM_STATE",
+			"depPath":  "github.com/sa6mwa/sshtun.CreateFile github.com/sa6mwa/sshtun.ResolveTildeSlash os.UserHomeDir",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.CreateFile"
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun.ResolveTildeSlash",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "270",
+						"column":  "31"
+					}
+				},
+				{
+					"name":  "os.UserHomeDir",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "260",
+						"column":  "29"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_READ_SYSTEM_STATE",
+			"depPath":  "github.com/sa6mwa/sshtun.DefaultConfig github.com/sa6mwa/sshtun.NewSecureShellTunneler os/user.Current",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.DefaultConfig"
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun.NewSecureShellTunneler",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "174",
+						"column":  "59"
+					}
+				},
+				{
+					"name":  "os/user.Current",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "138",
+						"column":  "29"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_READ_SYSTEM_STATE",
+			"depPath":  "github.com/sa6mwa/sshtun.LoadAndSave github.com/sa6mwa/sshtun.LoadConfigOrReturnDefault github.com/sa6mwa/sshtun.ResolveTildeSlash os.UserHomeDir",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.LoadAndSave"
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun.LoadConfigOrReturnDefault",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "178",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun.ResolveTildeSlash",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "165",
+						"column":  "45"
+					}
+				},
+				{
+					"name":  "os.UserHomeDir",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "260",
+						"column":  "29"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_READ_SYSTEM_STATE",
+			"depPath":  "github.com/sa6mwa/sshtun.LoadConfig github.com/sa6mwa/sshtun.ResolveTildeSlash os.UserHomeDir",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.LoadConfig"
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun.ResolveTildeSlash",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "145",
+						"column":  "37"
+					}
+				},
+				{
+					"name":  "os.UserHomeDir",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "260",
+						"column":  "29"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_READ_SYSTEM_STATE",
+			"depPath":  "github.com/sa6mwa/sshtun.LoadConfigOrReturnDefault github.com/sa6mwa/sshtun.ResolveTildeSlash os.UserHomeDir",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.LoadConfigOrReturnDefault"
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun.ResolveTildeSlash",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "165",
+						"column":  "45"
+					}
+				},
+				{
+					"name":  "os.UserHomeDir",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "260",
+						"column":  "29"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_READ_SYSTEM_STATE",
+			"depPath":  "github.com/sa6mwa/sshtun.NewSecureShellTunneler os/user.Current",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.NewSecureShellTunneler"
+				},
+				{
+					"name":  "os/user.Current",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "138",
+						"column":  "29"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_READ_SYSTEM_STATE",
+			"depPath":  "github.com/sa6mwa/sshtun.ResolveTildeSlash os.UserHomeDir",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.ResolveTildeSlash"
+				},
+				{
+					"name":  "os.UserHomeDir",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "260",
+						"column":  "29"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_READ_SYSTEM_STATE",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Became).Become (*github.com/sa6mwa/sshtun.SSHTUN).Become os.Getegid",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Became).Become"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Become",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "674",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "os.Getegid",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "644",
+						"column":  "133"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_READ_SYSTEM_STATE",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Became).Unbecome os.Getegid",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Became).Unbecome"
+				},
+				{
+					"name":  "os.Getegid",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "662",
+						"column":  "118"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_READ_SYSTEM_STATE",
+			"depPath":  "(*github.com/sa6mwa/sshtun.PrivateKeyFiles).String github.com/sa6mwa/sshtun.ResolveTildeSlash os.UserHomeDir",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.PrivateKeyFiles).String"
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun.ResolveTildeSlash",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "285",
+						"column":  "40"
+					}
+				},
+				{
+					"name":  "os.UserHomeDir",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "260",
+						"column":  "29"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_READ_SYSTEM_STATE",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Become os.Getegid",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Become"
+				},
+				{
+					"name":  "os.Getegid",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "644",
+						"column":  "133"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_READ_SYSTEM_STATE",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Dial os.Getenv",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Dial"
+				},
+				{
+					"name":  "os.Getenv",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "587",
+						"column":  "31"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_READ_SYSTEM_STATE",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open os.Geteuid",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open"
+				},
+				{
+					"name":  "os.Geteuid",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "335",
+						"column":  "15"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_READ_SYSTEM_STATE",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll (*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1 (*github.com/sa6mwa/sshtun.SSHTUN).Open os.Geteuid",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "228",
+						"column":  "3"
+					}
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "230",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "os.Geteuid",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "335",
+						"column":  "15"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_READ_SYSTEM_STATE",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).SaveConfig github.com/sa6mwa/sshtun.ResolveTildeSlash os.UserHomeDir",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).SaveConfig"
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun.ResolveTildeSlash",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "198",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "os.UserHomeDir",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "260",
+						"column":  "29"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_SYSTEM_CALLS",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1 (*github.com/sa6mwa/sshtun.SSHTUN).Open github.com/sa6mwa/sshtun/pkg/tun.CreateTUN syscall.Close",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "230",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun/pkg/tun.CreateTUN",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "344",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "syscall.Close",
+					"site":  {
+						"filename":  "tun.go",
+						"line":  "47",
+						"column":  "16"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_SYSTEM_CALLS",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Became).Become (*github.com/sa6mwa/sshtun.SSHTUN).Become syscall.Geteuid",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Became).Become"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Become",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "674",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "syscall.Geteuid",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "646",
+						"column":  "31"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_SYSTEM_CALLS",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Became).Unbecome syscall.Geteuid",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Became).Unbecome"
+				},
+				{
+					"name":  "syscall.Geteuid",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "663",
+						"column":  "20"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_SYSTEM_CALLS",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Become syscall.Geteuid",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Become"
+				},
+				{
+					"name":  "syscall.Geteuid",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "646",
+						"column":  "31"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_SYSTEM_CALLS",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open github.com/sa6mwa/sshtun/pkg/tun.CreateTUN syscall.Close",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open"
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun/pkg/tun.CreateTUN",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "344",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "syscall.Close",
+					"site":  {
+						"filename":  "tun.go",
+						"line":  "47",
+						"column":  "16"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_SYSTEM_CALLS",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll (*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1 (*github.com/sa6mwa/sshtun.SSHTUN).Open github.com/sa6mwa/sshtun/pkg/tun.CreateTUN syscall.Close",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "228",
+						"column":  "3"
+					}
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "230",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun/pkg/tun.CreateTUN",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "344",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "syscall.Close",
+					"site":  {
+						"filename":  "tun.go",
+						"line":  "47",
+						"column":  "16"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_ARBITRARY_EXECUTION",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote$1 (*golang.org/x/crypto/ssh.sessionStdin).Close (*golang.org/x/crypto/ssh.channel).CloseWrite (*golang.org/x/crypto/ssh.channel).sendMessage (*golang.org/x/crypto/ssh.channel).writePacket (*golang.org/x/crypto/ssh.handshakeTransport).writePacket (*golang.org/x/crypto/ssh.handshakeTransport).pushPacket (*golang.org/x/crypto/ssh.transport).writePacket (*golang.org/x/crypto/ssh.connectionState).writePacket (*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket golang.org/x/crypto/internal/poly1305.Sum (*golang.org/x/crypto/internal/poly1305.MAC).Sum (*golang.org/x/crypto/internal/poly1305.mac).Sum golang.org/x/crypto/internal/poly1305.update",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote$1"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.sessionStdin).Close",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "534",
+						"column":  "3"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.channel).CloseWrite",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "536",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.channel).sendMessage",
+					"site":  {
+						"filename":  "channel.go",
+						"line":  "555",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.channel).writePacket",
+					"site":  {
+						"filename":  "channel.go",
+						"line":  "229",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).writePacket",
+					"site":  {
+						"filename":  "channel.go",
+						"line":  "217",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).pushPacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "589",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.transport).writePacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "248",
+						"column":  "27"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connectionState).writePacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "192",
+						"column":  "29"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "198",
+						"column":  "41"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.Sum",
+					"site":  {
+						"filename":  "cipher.go",
+						"line":  "781",
+						"column":  "14"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.MAC).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "31",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.mac).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "87",
+						"column":  "11"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.update",
+					"site":  {
+						"filename":  "sum_amd64.go",
+						"line":  "44",
+						"column":  "9"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_ARBITRARY_EXECUTION",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1 (*github.com/sa6mwa/sshtun.SSHTUN).Open (*github.com/sa6mwa/sshtun.SSHTUN).Dial golang.org/x/crypto/ssh.NewClientConn (*golang.org/x/crypto/ssh.connection).clientHandshake golang.org/x/crypto/ssh.newClientTransport (*golang.org/x/crypto/ssh.handshakeTransport).kexLoop (*golang.org/x/crypto/ssh.handshakeTransport).enterKeyExchange (*golang.org/x/crypto/ssh.transport).writePacket (*golang.org/x/crypto/ssh.connectionState).writePacket (*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket golang.org/x/crypto/internal/poly1305.Sum (*golang.org/x/crypto/internal/poly1305.MAC).Sum (*golang.org/x/crypto/internal/poly1305.mac).Sum golang.org/x/crypto/internal/poly1305.update",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "230",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Dial",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "367",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.NewClientConn",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "629",
+						"column":  "42"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connection).clientHandshake",
+					"site":  {
+						"filename":  "client.go",
+						"line":  "83",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.newClientTransport",
+					"site":  {
+						"filename":  "client.go",
+						"line":  "105",
+						"column":  "34"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).kexLoop",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "156",
+						"column":  "2"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).enterKeyExchange",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "326",
+						"column":  "28"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.transport).writePacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "692",
+						"column":  "29"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connectionState).writePacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "192",
+						"column":  "29"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "198",
+						"column":  "41"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.Sum",
+					"site":  {
+						"filename":  "cipher.go",
+						"line":  "781",
+						"column":  "14"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.MAC).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "31",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.mac).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "87",
+						"column":  "11"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.update",
+					"site":  {
+						"filename":  "sum_amd64.go",
+						"line":  "44",
+						"column":  "9"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_ARBITRARY_EXECUTION",
+			"depPath":  "github.com/sa6mwa/sshtun.StartKeepalive github.com/sa6mwa/sshtun.serverAliveCheck (*golang.org/x/crypto/ssh.connection).SendRequest (*golang.org/x/crypto/ssh.mux).SendRequest (*golang.org/x/crypto/ssh.mux).sendMessage (*golang.org/x/crypto/ssh.handshakeTransport).writePacket (*golang.org/x/crypto/ssh.handshakeTransport).pushPacket (*golang.org/x/crypto/ssh.transport).writePacket (*golang.org/x/crypto/ssh.connectionState).writePacket (*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket golang.org/x/crypto/internal/poly1305.Sum (*golang.org/x/crypto/internal/poly1305.MAC).Sum (*golang.org/x/crypto/internal/poly1305.mac).Sum golang.org/x/crypto/internal/poly1305.update",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.StartKeepalive"
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun.serverAliveCheck",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "701",
+						"column":  "30"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connection).SendRequest",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "720",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.mux).SendRequest"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.mux).sendMessage",
+					"site":  {
+						"filename":  "mux.go",
+						"line":  "146",
+						"column":  "25"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).writePacket",
+					"site":  {
+						"filename":  "mux.go",
+						"line":  "137",
+						"column":  "27"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).pushPacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "589",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.transport).writePacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "248",
+						"column":  "27"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connectionState).writePacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "192",
+						"column":  "29"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "198",
+						"column":  "41"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.Sum",
+					"site":  {
+						"filename":  "cipher.go",
+						"line":  "781",
+						"column":  "14"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.MAC).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "31",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.mac).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "87",
+						"column":  "11"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.update",
+					"site":  {
+						"filename":  "sum_amd64.go",
+						"line":  "44",
+						"column":  "9"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_ARBITRARY_EXECUTION",
+			"depPath":  "github.com/sa6mwa/sshtun.serverAliveCheck (*golang.org/x/crypto/ssh.connection).SendRequest (*golang.org/x/crypto/ssh.mux).SendRequest (*golang.org/x/crypto/ssh.mux).sendMessage (*golang.org/x/crypto/ssh.handshakeTransport).writePacket (*golang.org/x/crypto/ssh.handshakeTransport).pushPacket (*golang.org/x/crypto/ssh.transport).writePacket (*golang.org/x/crypto/ssh.connectionState).writePacket (*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket golang.org/x/crypto/internal/poly1305.Sum (*golang.org/x/crypto/internal/poly1305.MAC).Sum (*golang.org/x/crypto/internal/poly1305.mac).Sum golang.org/x/crypto/internal/poly1305.update",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.serverAliveCheck"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connection).SendRequest",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "720",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.mux).SendRequest"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.mux).sendMessage",
+					"site":  {
+						"filename":  "mux.go",
+						"line":  "146",
+						"column":  "25"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).writePacket",
+					"site":  {
+						"filename":  "mux.go",
+						"line":  "137",
+						"column":  "27"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).pushPacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "589",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.transport).writePacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "248",
+						"column":  "27"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connectionState).writePacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "192",
+						"column":  "29"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "198",
+						"column":  "41"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.Sum",
+					"site":  {
+						"filename":  "cipher.go",
+						"line":  "781",
+						"column":  "14"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.MAC).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "31",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.mac).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "87",
+						"column":  "11"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.update",
+					"site":  {
+						"filename":  "sum_amd64.go",
+						"line":  "44",
+						"column":  "9"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_ARBITRARY_EXECUTION",
+			"depPath":  "github.com/sa6mwa/sshtun.sshrun (*golang.org/x/crypto/ssh.Session).Close (*golang.org/x/crypto/ssh.channel).Close (*golang.org/x/crypto/ssh.channel).sendMessage (*golang.org/x/crypto/ssh.channel).writePacket (*golang.org/x/crypto/ssh.handshakeTransport).writePacket (*golang.org/x/crypto/ssh.handshakeTransport).pushPacket (*golang.org/x/crypto/ssh.transport).writePacket (*golang.org/x/crypto/ssh.connectionState).writePacket (*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket golang.org/x/crypto/internal/poly1305.Sum (*golang.org/x/crypto/internal/poly1305.MAC).Sum (*golang.org/x/crypto/internal/poly1305.mac).Sum golang.org/x/crypto/internal/poly1305.update",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.sshrun"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.Session).Close",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "577",
+						"column":  "2"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.channel).Close",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "156",
+						"column":  "19"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.channel).sendMessage",
+					"site":  {
+						"filename":  "channel.go",
+						"line":  "564",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.channel).writePacket",
+					"site":  {
+						"filename":  "channel.go",
+						"line":  "229",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).writePacket",
+					"site":  {
+						"filename":  "channel.go",
+						"line":  "217",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).pushPacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "589",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.transport).writePacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "248",
+						"column":  "27"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connectionState).writePacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "192",
+						"column":  "29"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "198",
+						"column":  "41"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.Sum",
+					"site":  {
+						"filename":  "cipher.go",
+						"line":  "781",
+						"column":  "14"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.MAC).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "31",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.mac).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "87",
+						"column":  "11"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.update",
+					"site":  {
+						"filename":  "sum_amd64.go",
+						"line":  "44",
+						"column":  "9"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_ARBITRARY_EXECUTION",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Dial golang.org/x/crypto/ssh.NewClientConn (*golang.org/x/crypto/ssh.connection).clientHandshake golang.org/x/crypto/ssh.newClientTransport (*golang.org/x/crypto/ssh.handshakeTransport).kexLoop (*golang.org/x/crypto/ssh.handshakeTransport).enterKeyExchange (*golang.org/x/crypto/ssh.transport).writePacket (*golang.org/x/crypto/ssh.connectionState).writePacket (*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket golang.org/x/crypto/internal/poly1305.Sum (*golang.org/x/crypto/internal/poly1305.MAC).Sum (*golang.org/x/crypto/internal/poly1305.mac).Sum golang.org/x/crypto/internal/poly1305.update",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Dial"
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.NewClientConn",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "629",
+						"column":  "42"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connection).clientHandshake",
+					"site":  {
+						"filename":  "client.go",
+						"line":  "83",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.newClientTransport",
+					"site":  {
+						"filename":  "client.go",
+						"line":  "105",
+						"column":  "34"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).kexLoop",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "156",
+						"column":  "2"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).enterKeyExchange",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "326",
+						"column":  "28"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.transport).writePacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "692",
+						"column":  "29"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connectionState).writePacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "192",
+						"column":  "29"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "198",
+						"column":  "41"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.Sum",
+					"site":  {
+						"filename":  "cipher.go",
+						"line":  "781",
+						"column":  "14"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.MAC).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "31",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.mac).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "87",
+						"column":  "11"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.update",
+					"site":  {
+						"filename":  "sum_amd64.go",
+						"line":  "44",
+						"column":  "9"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_ARBITRARY_EXECUTION",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open (*github.com/sa6mwa/sshtun.SSHTUN).Dial golang.org/x/crypto/ssh.NewClientConn (*golang.org/x/crypto/ssh.connection).clientHandshake golang.org/x/crypto/ssh.newClientTransport (*golang.org/x/crypto/ssh.handshakeTransport).kexLoop (*golang.org/x/crypto/ssh.handshakeTransport).enterKeyExchange (*golang.org/x/crypto/ssh.transport).writePacket (*golang.org/x/crypto/ssh.connectionState).writePacket (*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket golang.org/x/crypto/internal/poly1305.Sum (*golang.org/x/crypto/internal/poly1305.MAC).Sum (*golang.org/x/crypto/internal/poly1305.mac).Sum golang.org/x/crypto/internal/poly1305.update",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Dial",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "367",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.NewClientConn",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "629",
+						"column":  "42"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connection).clientHandshake",
+					"site":  {
+						"filename":  "client.go",
+						"line":  "83",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.newClientTransport",
+					"site":  {
+						"filename":  "client.go",
+						"line":  "105",
+						"column":  "34"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).kexLoop",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "156",
+						"column":  "2"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).enterKeyExchange",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "326",
+						"column":  "28"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.transport).writePacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "692",
+						"column":  "29"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connectionState).writePacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "192",
+						"column":  "29"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "198",
+						"column":  "41"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.Sum",
+					"site":  {
+						"filename":  "cipher.go",
+						"line":  "781",
+						"column":  "14"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.MAC).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "31",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.mac).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "87",
+						"column":  "11"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.update",
+					"site":  {
+						"filename":  "sum_amd64.go",
+						"line":  "44",
+						"column":  "9"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_ARBITRARY_EXECUTION",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling (*golang.org/x/crypto/ssh.Session).Close (*golang.org/x/crypto/ssh.channel).Close (*golang.org/x/crypto/ssh.channel).sendMessage (*golang.org/x/crypto/ssh.channel).writePacket (*golang.org/x/crypto/ssh.handshakeTransport).writePacket (*golang.org/x/crypto/ssh.handshakeTransport).pushPacket (*golang.org/x/crypto/ssh.transport).writePacket (*golang.org/x/crypto/ssh.connectionState).writePacket (*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket golang.org/x/crypto/internal/poly1305.Sum (*golang.org/x/crypto/internal/poly1305.MAC).Sum (*golang.org/x/crypto/internal/poly1305.mac).Sum golang.org/x/crypto/internal/poly1305.update",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.Session).Close",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "450",
+						"column":  "2"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.channel).Close",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "156",
+						"column":  "19"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.channel).sendMessage",
+					"site":  {
+						"filename":  "channel.go",
+						"line":  "564",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.channel).writePacket",
+					"site":  {
+						"filename":  "channel.go",
+						"line":  "229",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).writePacket",
+					"site":  {
+						"filename":  "channel.go",
+						"line":  "217",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).pushPacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "589",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.transport).writePacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "248",
+						"column":  "27"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connectionState).writePacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "192",
+						"column":  "29"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "198",
+						"column":  "41"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.Sum",
+					"site":  {
+						"filename":  "cipher.go",
+						"line":  "781",
+						"column":  "14"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.MAC).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "31",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.mac).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "87",
+						"column":  "11"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.update",
+					"site":  {
+						"filename":  "sum_amd64.go",
+						"line":  "44",
+						"column":  "9"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_ARBITRARY_EXECUTION",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote (*golang.org/x/crypto/ssh.Session).Close (*golang.org/x/crypto/ssh.channel).Close (*golang.org/x/crypto/ssh.channel).sendMessage (*golang.org/x/crypto/ssh.channel).writePacket (*golang.org/x/crypto/ssh.handshakeTransport).writePacket (*golang.org/x/crypto/ssh.handshakeTransport).pushPacket (*golang.org/x/crypto/ssh.transport).writePacket (*golang.org/x/crypto/ssh.connectionState).writePacket (*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket golang.org/x/crypto/internal/poly1305.Sum (*golang.org/x/crypto/internal/poly1305.MAC).Sum (*golang.org/x/crypto/internal/poly1305.mac).Sum golang.org/x/crypto/internal/poly1305.update",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.Session).Close",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "505",
+						"column":  "2"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.channel).Close",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "156",
+						"column":  "19"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.channel).sendMessage",
+					"site":  {
+						"filename":  "channel.go",
+						"line":  "564",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.channel).writePacket",
+					"site":  {
+						"filename":  "channel.go",
+						"line":  "229",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).writePacket",
+					"site":  {
+						"filename":  "channel.go",
+						"line":  "217",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).pushPacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "589",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.transport).writePacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "248",
+						"column":  "27"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connectionState).writePacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "192",
+						"column":  "29"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "198",
+						"column":  "41"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.Sum",
+					"site":  {
+						"filename":  "cipher.go",
+						"line":  "781",
+						"column":  "14"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.MAC).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "31",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.mac).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "87",
+						"column":  "11"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.update",
+					"site":  {
+						"filename":  "sum_amd64.go",
+						"line":  "44",
+						"column":  "9"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_ARBITRARY_EXECUTION",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll (*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1 (*github.com/sa6mwa/sshtun.SSHTUN).Open (*github.com/sa6mwa/sshtun.SSHTUN).Dial golang.org/x/crypto/ssh.NewClientConn (*golang.org/x/crypto/ssh.connection).clientHandshake golang.org/x/crypto/ssh.newClientTransport (*golang.org/x/crypto/ssh.handshakeTransport).kexLoop (*golang.org/x/crypto/ssh.handshakeTransport).enterKeyExchange (*golang.org/x/crypto/ssh.transport).writePacket (*golang.org/x/crypto/ssh.connectionState).writePacket (*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket golang.org/x/crypto/internal/poly1305.Sum (*golang.org/x/crypto/internal/poly1305.MAC).Sum (*golang.org/x/crypto/internal/poly1305.mac).Sum golang.org/x/crypto/internal/poly1305.update",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "228",
+						"column":  "3"
+					}
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "230",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Dial",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "367",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.NewClientConn",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "629",
+						"column":  "42"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connection).clientHandshake",
+					"site":  {
+						"filename":  "client.go",
+						"line":  "83",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.newClientTransport",
+					"site":  {
+						"filename":  "client.go",
+						"line":  "105",
+						"column":  "34"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).kexLoop",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "156",
+						"column":  "2"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).enterKeyExchange",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "326",
+						"column":  "28"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.transport).writePacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "692",
+						"column":  "29"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connectionState).writePacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "192",
+						"column":  "29"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.chacha20Poly1305Cipher).writeCipherPacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "198",
+						"column":  "41"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.Sum",
+					"site":  {
+						"filename":  "cipher.go",
+						"line":  "781",
+						"column":  "14"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.MAC).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "31",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/internal/poly1305.mac).Sum",
+					"site":  {
+						"filename":  "poly1305.go",
+						"line":  "87",
+						"column":  "11"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/internal/poly1305.update",
+					"site":  {
+						"filename":  "sum_amd64.go",
+						"line":  "44",
+						"column":  "9"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open$1 (*log/slog.Logger).Debug (*log/slog.Logger).log (*log/slog.defaultHandler).Handle (*log/slog.commonHandler).newHandleState (*sync.Pool).Get",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open$1"
+				},
+				{
+					"name":  "(*log/slog.Logger).Debug",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "330",
+						"column":  "15"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "200",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.defaultHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*log/slog.commonHandler).newHandleState",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "114",
+						"column":  "30"
+					}
+				},
+				{
+					"name":  "(*sync.Pool).Get",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "396",
+						"column":  "27"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$1 io.Copy",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$1"
+				},
+				{
+					"name":  "io.Copy",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "476",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$2 io.Copy",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$2"
+				},
+				{
+					"name":  "io.Copy",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "481",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$3 io.Copy",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$3"
+				},
+				{
+					"name":  "io.Copy",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "488",
+						"column":  "10"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote$1 io.CopyN",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote$1"
+				},
+				{
+					"name":  "io.CopyN",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "536",
+						"column":  "11"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote$2 io.Copy",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote$2"
+				},
+				{
+					"name":  "io.Copy",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "543",
+						"column":  "10"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1 errors.Is",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1"
+				},
+				{
+					"name":  "errors.Is",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "232",
+						"column":  "18"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "github.com/sa6mwa/sshtun.StartKeepalive (*log/slog.Logger).Debug (*log/slog.Logger).log (*log/slog.defaultHandler).Handle (*log/slog.commonHandler).newHandleState (*sync.Pool).Get",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.StartKeepalive"
+				},
+				{
+					"name":  "(*log/slog.Logger).Debug",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "700",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "200",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.defaultHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*log/slog.commonHandler).newHandleState",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "114",
+						"column":  "30"
+					}
+				},
+				{
+					"name":  "(*sync.Pool).Get",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "396",
+						"column":  "27"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "github.com/sa6mwa/sshtun.serverAliveCheck (*golang.org/x/crypto/ssh.connection).SendRequest (*golang.org/x/crypto/ssh.mux).SendRequest (*golang.org/x/crypto/ssh.mux).sendMessage (*golang.org/x/crypto/ssh.handshakeTransport).writePacket (*golang.org/x/crypto/ssh.handshakeTransport).pushPacket (*golang.org/x/crypto/ssh.transport).writePacket (*golang.org/x/crypto/ssh.connectionState).writePacket (*bufio.Writer).Flush",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.serverAliveCheck"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connection).SendRequest",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "720",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.mux).SendRequest"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.mux).sendMessage",
+					"site":  {
+						"filename":  "mux.go",
+						"line":  "146",
+						"column":  "25"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).writePacket",
+					"site":  {
+						"filename":  "mux.go",
+						"line":  "137",
+						"column":  "27"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.handshakeTransport).pushPacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "589",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.transport).writePacket",
+					"site":  {
+						"filename":  "handshake.go",
+						"line":  "248",
+						"column":  "27"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connectionState).writePacket",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "192",
+						"column":  "29"
+					}
+				},
+				{
+					"name":  "(*bufio.Writer).Flush",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "202",
+						"column":  "18"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "github.com/sa6mwa/sshtun.sshrun (*golang.org/x/crypto/ssh.Session).Run (*golang.org/x/crypto/ssh.Session).Start (*golang.org/x/crypto/ssh.Session).start (*golang.org/x/crypto/ssh.Session).start$1 (*golang.org/x/crypto/ssh.Session).stderr$1 io.Copy",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.sshrun"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.Session).Run",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "578",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.Session).Start",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "310",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.Session).start",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "293",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.Session).start$1",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "382",
+						"column":  "3"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.Session).stderr$1",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "383",
+						"column":  "18"
+					}
+				},
+				{
+					"name":  "io.Copy",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "524",
+						"column":  "20"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Became).Become (*github.com/sa6mwa/sshtun.SSHTUN).Become (*log/slog.Logger).Debug (*log/slog.Logger).log (*log/slog.defaultHandler).Handle (*log/slog.commonHandler).newHandleState (*sync.Pool).Get",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Became).Become"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Become",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "674",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).Debug",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "644",
+						"column":  "13"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "200",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.defaultHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*log/slog.commonHandler).newHandleState",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "114",
+						"column":  "30"
+					}
+				},
+				{
+					"name":  "(*sync.Pool).Get",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "396",
+						"column":  "27"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Became).Unbecome (*log/slog.Logger).Debug (*log/slog.Logger).log (*log/slog.defaultHandler).Handle (*log/slog.commonHandler).newHandleState (*sync.Pool).Get",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Became).Unbecome"
+				},
+				{
+					"name":  "(*log/slog.Logger).Debug",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "662",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "200",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.defaultHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*log/slog.commonHandler).newHandleState",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "114",
+						"column":  "30"
+					}
+				},
+				{
+					"name":  "(*sync.Pool).Get",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "396",
+						"column":  "27"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Become (*log/slog.Logger).Debug (*log/slog.Logger).log (*log/slog.defaultHandler).Handle (*log/slog.commonHandler).newHandleState (*sync.Pool).Get",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Become"
+				},
+				{
+					"name":  "(*log/slog.Logger).Debug",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "644",
+						"column":  "13"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "200",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.defaultHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*log/slog.commonHandler).newHandleState",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "114",
+						"column":  "30"
+					}
+				},
+				{
+					"name":  "(*sync.Pool).Get",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "396",
+						"column":  "27"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Dial golang.org/x/crypto/ssh.NewClientConn (*golang.org/x/crypto/ssh.connection).clientHandshake golang.org/x/crypto/ssh.exchangeVersions golang.org/x/crypto/ssh.readVersion io.ReadFull",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Dial"
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.NewClientConn",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "629",
+						"column":  "42"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connection).clientHandshake",
+					"site":  {
+						"filename":  "client.go",
+						"line":  "83",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.exchangeVersions",
+					"site":  {
+						"filename":  "client.go",
+						"line":  "100",
+						"column":  "41"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.readVersion",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "328",
+						"column":  "25"
+					}
+				},
+				{
+					"name":  "io.ReadFull",
+					"site":  {
+						"filename":  "transport.go",
+						"line":  "344",
+						"column":  "24"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open (*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling (*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$1 io.Copy",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "423",
+						"column":  "28"
+					}
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$1",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "475",
+						"column":  "2"
+					}
+				},
+				{
+					"name":  "io.Copy",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "476",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling (*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$1 io.Copy",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$1",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "475",
+						"column":  "2"
+					}
+				},
+				{
+					"name":  "io.Copy",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "476",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote (*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote$2 io.Copy",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote$2",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "559",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "io.Copy",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "543",
+						"column":  "10"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNANALYZED",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll (*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1 errors.Is",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "228",
+						"column":  "3"
+					}
+				},
+				{
+					"name":  "errors.Is",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "232",
+						"column":  "18"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNSAFE_POINTER",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1 (*github.com/sa6mwa/sshtun.SSHTUN).Open (*github.com/sa6mwa/sshtun/pkg/tun.TUN).ConfigureInterface",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "230",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun/pkg/tun.TUN).ConfigureInterface",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "353",
+						"column":  "39"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNSAFE_POINTER",
+			"depPath":  "github.com/sa6mwa/sshtun.init github.com/alessio/shellescape.init github.com/alessio/shellescape.init#1 regexp.MustCompile regexp.Compile regexp.compile regexp.onePassPrefix (*strings.Builder).WriteRune (*strings.Builder).copyCheck",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.init"
+				},
+				{
+					"name":  "github.com/alessio/shellescape.init"
+				},
+				{
+					"name":  "github.com/alessio/shellescape.init#1"
+				},
+				{
+					"name":  "regexp.MustCompile",
+					"site":  {
+						"filename":  "shellescape.go",
+						"line":  "26",
+						"column":  "30"
+					}
+				},
+				{
+					"name":  "regexp.Compile",
+					"site":  {
+						"filename":  "regexp.go",
+						"line":  "315",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "regexp.compile",
+					"site":  {
+						"filename":  "regexp.go",
+						"line":  "135",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "regexp.onePassPrefix",
+					"site":  {
+						"filename":  "regexp.go",
+						"line":  "203",
+						"column":  "73"
+					}
+				},
+				{
+					"name":  "(*strings.Builder).WriteRune",
+					"site":  {
+						"filename":  "onepass.go",
+						"line":  "60",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(*strings.Builder).copyCheck",
+					"site":  {
+						"filename":  "builder.go",
+						"line":  "106",
+						"column":  "13"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNSAFE_POINTER",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open (*github.com/sa6mwa/sshtun/pkg/tun.TUN).ConfigureInterface",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun/pkg/tun.TUN).ConfigureInterface",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "353",
+						"column":  "39"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_UNSAFE_POINTER",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll (*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1 (*github.com/sa6mwa/sshtun.SSHTUN).Open (*github.com/sa6mwa/sshtun/pkg/tun.TUN).ConfigureInterface",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "228",
+						"column":  "3"
+					}
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "230",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun/pkg/tun.TUN).ConfigureInterface",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "353",
+						"column":  "39"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open$1 (*log/slog.Logger).Debug (*log/slog.Logger).log (*log/slog.JSONHandler).Handle (*log/slog.commonHandler).handle (*log/slog.handleState).appendAttr (*log/slog.handleState).appendValue log/slog.appendJSONValue log/slog.appendJSONMarshal (*encoding/json.Encoder).Encode (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open$1"
+				},
+				{
+					"name":  "(*log/slog.Logger).Debug",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "330",
+						"column":  "15"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "200",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.JSONHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*log/slog.commonHandler).handle",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "91",
+						"column":  "31"
+					}
+				},
+				{
+					"name":  "(*log/slog.handleState).appendAttr",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "283",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*log/slog.handleState).appendValue",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "516",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "log/slog.appendJSONValue",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "576",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "log/slog.appendJSONMarshal",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "118",
+						"column":  "30"
+					}
+				},
+				{
+					"name":  "(*encoding/json.Encoder).Encode",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "147",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).marshal",
+					"site":  {
+						"filename":  "stream.go",
+						"line":  "209",
+						"column":  "18"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).reflectValue",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "297",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode$bound",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "321",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode"
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$1 (*log/slog.Logger).Error (*log/slog.Logger).log (*log/slog.JSONHandler).Handle (*log/slog.commonHandler).handle (*log/slog.handleState).appendAttr (*log/slog.handleState).appendValue log/slog.appendJSONValue log/slog.appendJSONMarshal (*encoding/json.Encoder).Encode (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$1"
+				},
+				{
+					"name":  "(*log/slog.Logger).Error",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "477",
+						"column":  "15"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "230",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.JSONHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*log/slog.commonHandler).handle",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "91",
+						"column":  "31"
+					}
+				},
+				{
+					"name":  "(*log/slog.handleState).appendAttr",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "283",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*log/slog.handleState).appendValue",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "516",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "log/slog.appendJSONValue",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "576",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "log/slog.appendJSONMarshal",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "118",
+						"column":  "30"
+					}
+				},
+				{
+					"name":  "(*encoding/json.Encoder).Encode",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "147",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).marshal",
+					"site":  {
+						"filename":  "stream.go",
+						"line":  "209",
+						"column":  "18"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).reflectValue",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "297",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode$bound",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "321",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode"
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$2 (*log/slog.Logger).Error (*log/slog.Logger).log (*log/slog.JSONHandler).Handle (*log/slog.commonHandler).handle (*log/slog.handleState).appendAttr (*log/slog.handleState).appendValue log/slog.appendJSONValue log/slog.appendJSONMarshal (*encoding/json.Encoder).Encode (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling$2"
+				},
+				{
+					"name":  "(*log/slog.Logger).Error",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "482",
+						"column":  "15"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "230",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.JSONHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*log/slog.commonHandler).handle",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "91",
+						"column":  "31"
+					}
+				},
+				{
+					"name":  "(*log/slog.handleState).appendAttr",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "283",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*log/slog.handleState).appendValue",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "516",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "log/slog.appendJSONValue",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "576",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "log/slog.appendJSONMarshal",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "118",
+						"column":  "30"
+					}
+				},
+				{
+					"name":  "(*encoding/json.Encoder).Encode",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "147",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).marshal",
+					"site":  {
+						"filename":  "stream.go",
+						"line":  "209",
+						"column":  "18"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).reflectValue",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "297",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode$bound",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "321",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode"
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote$1 (*golang.org/x/crypto/ssh.sessionStdin).Close (*golang.org/x/crypto/ssh.channel).CloseWrite (*golang.org/x/crypto/ssh.channel).sendMessage golang.org/x/crypto/ssh.Marshal golang.org/x/crypto/ssh.marshalStruct (reflect.Value).Interface",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote$1"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.sessionStdin).Close",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "534",
+						"column":  "3"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.channel).CloseWrite",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "536",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.channel).sendMessage",
+					"site":  {
+						"filename":  "channel.go",
+						"line":  "555",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.Marshal",
+					"site":  {
+						"filename":  "channel.go",
+						"line":  "227",
+						"column":  "14"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.marshalStruct",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "521",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "(reflect.Value).Interface",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "542",
+						"column":  "79"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1 (*github.com/sa6mwa/sshtun.SSHTUN).Open (*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling (*golang.org/x/crypto/ssh.Session).Start golang.org/x/crypto/ssh.Marshal golang.org/x/crypto/ssh.marshalStruct (reflect.Value).Interface",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "230",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "423",
+						"column":  "28"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.Session).Start",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "471",
+						"column":  "25"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.Marshal",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "286",
+						"column":  "51"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.marshalStruct",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "521",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "(reflect.Value).Interface",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "542",
+						"column":  "79"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "github.com/sa6mwa/sshtun.LoadAndSave (*github.com/sa6mwa/sshtun.Tunnels).SaveConfig (*encoding/json.Encoder).Encode (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.LoadAndSave"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).SaveConfig",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "180",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*encoding/json.Encoder).Encode",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "209",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).marshal",
+					"site":  {
+						"filename":  "stream.go",
+						"line":  "209",
+						"column":  "18"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).reflectValue",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "297",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode$bound",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "321",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode"
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "github.com/sa6mwa/sshtun.LoadConfig (*encoding/json.Decoder).Decode (*encoding/json.decodeState).unmarshal (*encoding/json.decodeState).value (*encoding/json.decodeState).object reflect.MakeMap",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.LoadConfig"
+				},
+				{
+					"name":  "(*encoding/json.Decoder).Decode",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "151",
+						"column":  "37"
+					}
+				},
+				{
+					"name":  "(*encoding/json.decodeState).unmarshal",
+					"site":  {
+						"filename":  "stream.go",
+						"line":  "73",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "(*encoding/json.decodeState).value",
+					"site":  {
+						"filename":  "decode.go",
+						"line":  "181",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(*encoding/json.decodeState).object",
+					"site":  {
+						"filename":  "decode.go",
+						"line":  "374",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "reflect.MakeMap",
+					"site":  {
+						"filename":  "decode.go",
+						"line":  "643",
+						"column":  "25"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "github.com/sa6mwa/sshtun.LoadConfigOrReturnDefault github.com/sa6mwa/sshtun.LoadConfig (*encoding/json.Decoder).Decode (*encoding/json.decodeState).unmarshal (*encoding/json.decodeState).value (*encoding/json.decodeState).object reflect.MakeMap",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.LoadConfigOrReturnDefault"
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun.LoadConfig",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "165",
+						"column":  "27"
+					}
+				},
+				{
+					"name":  "(*encoding/json.Decoder).Decode",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "151",
+						"column":  "37"
+					}
+				},
+				{
+					"name":  "(*encoding/json.decodeState).unmarshal",
+					"site":  {
+						"filename":  "stream.go",
+						"line":  "73",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "(*encoding/json.decodeState).value",
+					"site":  {
+						"filename":  "decode.go",
+						"line":  "181",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(*encoding/json.decodeState).object",
+					"site":  {
+						"filename":  "decode.go",
+						"line":  "374",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "reflect.MakeMap",
+					"site":  {
+						"filename":  "decode.go",
+						"line":  "643",
+						"column":  "25"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "github.com/sa6mwa/sshtun.StartKeepalive github.com/sa6mwa/sshtun.serverAliveCheck (*golang.org/x/crypto/ssh.connection).SendRequest (*golang.org/x/crypto/ssh.mux).SendRequest (*golang.org/x/crypto/ssh.mux).sendMessage golang.org/x/crypto/ssh.Marshal golang.org/x/crypto/ssh.marshalStruct (reflect.Value).Interface",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.StartKeepalive"
+				},
+				{
+					"name":  "github.com/sa6mwa/sshtun.serverAliveCheck",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "701",
+						"column":  "30"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connection).SendRequest",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "720",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.mux).SendRequest"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.mux).sendMessage",
+					"site":  {
+						"filename":  "mux.go",
+						"line":  "146",
+						"column":  "25"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.Marshal",
+					"site":  {
+						"filename":  "mux.go",
+						"line":  "133",
+						"column":  "14"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.marshalStruct",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "521",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "(reflect.Value).Interface",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "542",
+						"column":  "79"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "github.com/sa6mwa/sshtun.init encoding/json.init reflect.TypeFor[encoding.TextMarshaler]",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.init"
+				},
+				{
+					"name":  "encoding/json.init"
+				},
+				{
+					"name":  "reflect.TypeFor[encoding.TextMarshaler]",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "373",
+						"column":  "61"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "github.com/sa6mwa/sshtun.serverAliveCheck (*golang.org/x/crypto/ssh.connection).SendRequest (*golang.org/x/crypto/ssh.mux).SendRequest (*golang.org/x/crypto/ssh.mux).sendMessage golang.org/x/crypto/ssh.Marshal golang.org/x/crypto/ssh.marshalStruct (reflect.Value).Interface",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.serverAliveCheck"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.connection).SendRequest",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "720",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.mux).SendRequest"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.mux).sendMessage",
+					"site":  {
+						"filename":  "mux.go",
+						"line":  "146",
+						"column":  "25"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.Marshal",
+					"site":  {
+						"filename":  "mux.go",
+						"line":  "133",
+						"column":  "14"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.marshalStruct",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "521",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "(reflect.Value).Interface",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "542",
+						"column":  "79"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "github.com/sa6mwa/sshtun.sshrun (*golang.org/x/crypto/ssh.Session).Run (*golang.org/x/crypto/ssh.Session).Start golang.org/x/crypto/ssh.Marshal golang.org/x/crypto/ssh.marshalStruct (reflect.Value).Interface",
+			"path":  [
+				{
+					"name":  "github.com/sa6mwa/sshtun.sshrun"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.Session).Run",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "578",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.Session).Start",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "310",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.Marshal",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "286",
+						"column":  "51"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.marshalStruct",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "521",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "(reflect.Value).Interface",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "542",
+						"column":  "79"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Became).Become (*github.com/sa6mwa/sshtun.SSHTUN).Become (*log/slog.Logger).Debug (*log/slog.Logger).log (*log/slog.JSONHandler).Handle (*log/slog.commonHandler).handle (*log/slog.handleState).appendAttr (*log/slog.handleState).appendValue log/slog.appendJSONValue log/slog.appendJSONMarshal (*encoding/json.Encoder).Encode (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Became).Become"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Become",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "674",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).Debug",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "644",
+						"column":  "13"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "200",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.JSONHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*log/slog.commonHandler).handle",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "91",
+						"column":  "31"
+					}
+				},
+				{
+					"name":  "(*log/slog.handleState).appendAttr",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "283",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*log/slog.handleState).appendValue",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "516",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "log/slog.appendJSONValue",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "576",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "log/slog.appendJSONMarshal",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "118",
+						"column":  "30"
+					}
+				},
+				{
+					"name":  "(*encoding/json.Encoder).Encode",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "147",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).marshal",
+					"site":  {
+						"filename":  "stream.go",
+						"line":  "209",
+						"column":  "18"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).reflectValue",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "297",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode$bound",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "321",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode"
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Became).Unbecome (*log/slog.Logger).Debug (*log/slog.Logger).log (*log/slog.JSONHandler).Handle (*log/slog.commonHandler).handle (*log/slog.handleState).appendAttr (*log/slog.handleState).appendValue log/slog.appendJSONValue log/slog.appendJSONMarshal (*encoding/json.Encoder).Encode (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Became).Unbecome"
+				},
+				{
+					"name":  "(*log/slog.Logger).Debug",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "662",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "200",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.JSONHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*log/slog.commonHandler).handle",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "91",
+						"column":  "31"
+					}
+				},
+				{
+					"name":  "(*log/slog.handleState).appendAttr",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "283",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*log/slog.handleState).appendValue",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "516",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "log/slog.appendJSONValue",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "576",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "log/slog.appendJSONMarshal",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "118",
+						"column":  "30"
+					}
+				},
+				{
+					"name":  "(*encoding/json.Encoder).Encode",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "147",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).marshal",
+					"site":  {
+						"filename":  "stream.go",
+						"line":  "209",
+						"column":  "18"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).reflectValue",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "297",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode$bound",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "321",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode"
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Duration).UnmarshalJSON encoding/json.Unmarshal (*encoding/json.decodeState).unmarshal (*encoding/json.decodeState).value (*encoding/json.decodeState).object reflect.MakeMap",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Duration).UnmarshalJSON"
+				},
+				{
+					"name":  "encoding/json.Unmarshal",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "96",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "(*encoding/json.decodeState).unmarshal",
+					"site":  {
+						"filename":  "decode.go",
+						"line":  "108",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*encoding/json.decodeState).value",
+					"site":  {
+						"filename":  "decode.go",
+						"line":  "181",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(*encoding/json.decodeState).object",
+					"site":  {
+						"filename":  "decode.go",
+						"line":  "374",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "reflect.MakeMap",
+					"site":  {
+						"filename":  "decode.go",
+						"line":  "643",
+						"column":  "25"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Become (*log/slog.Logger).Debug (*log/slog.Logger).log (*log/slog.JSONHandler).Handle (*log/slog.commonHandler).handle (*log/slog.handleState).appendAttr (*log/slog.handleState).appendValue log/slog.appendJSONValue log/slog.appendJSONMarshal (*encoding/json.Encoder).Encode (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Become"
+				},
+				{
+					"name":  "(*log/slog.Logger).Debug",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "644",
+						"column":  "13"
+					}
+				},
+				{
+					"name":  "(*log/slog.Logger).log",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "200",
+						"column":  "7"
+					}
+				},
+				{
+					"name":  "(*log/slog.JSONHandler).Handle",
+					"site":  {
+						"filename":  "logger.go",
+						"line":  "257",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "(*log/slog.commonHandler).handle",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "91",
+						"column":  "31"
+					}
+				},
+				{
+					"name":  "(*log/slog.handleState).appendAttr",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "283",
+						"column":  "20"
+					}
+				},
+				{
+					"name":  "(*log/slog.handleState).appendValue",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "516",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "log/slog.appendJSONValue",
+					"site":  {
+						"filename":  "handler.go",
+						"line":  "576",
+						"column":  "24"
+					}
+				},
+				{
+					"name":  "log/slog.appendJSONMarshal",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "118",
+						"column":  "30"
+					}
+				},
+				{
+					"name":  "(*encoding/json.Encoder).Encode",
+					"site":  {
+						"filename":  "json_handler.go",
+						"line":  "147",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).marshal",
+					"site":  {
+						"filename":  "stream.go",
+						"line":  "209",
+						"column":  "18"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).reflectValue",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "297",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode$bound",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "321",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode"
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Dial golang.org/x/crypto/ssh.ParsePrivateKey golang.org/x/crypto/ssh.ParseRawPrivateKey golang.org/x/crypto/ssh.parseOpenSSHPrivateKey golang.org/x/crypto/ssh.Unmarshal (reflect.Value).Set",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Dial"
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.ParsePrivateKey",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "605",
+						"column":  "38"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.ParseRawPrivateKey",
+					"site":  {
+						"filename":  "keys.go",
+						"line":  "1140",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.parseOpenSSHPrivateKey",
+					"site":  {
+						"filename":  "keys.go",
+						"line":  "1204",
+						"column":  "32"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.Unmarshal",
+					"site":  {
+						"filename":  "keys.go",
+						"line":  "1445",
+						"column":  "21"
+					}
+				},
+				{
+					"name":  "(reflect.Value).Set",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "443",
+						"column":  "23"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open (*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling (*golang.org/x/crypto/ssh.Session).Start golang.org/x/crypto/ssh.Marshal golang.org/x/crypto/ssh.marshalStruct (reflect.Value).Interface",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "423",
+						"column":  "28"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.Session).Start",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "471",
+						"column":  "25"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.Marshal",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "286",
+						"column":  "51"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.marshalStruct",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "521",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "(reflect.Value).Interface",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "542",
+						"column":  "79"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling (*golang.org/x/crypto/ssh.Session).Start golang.org/x/crypto/ssh.Marshal golang.org/x/crypto/ssh.marshalStruct (reflect.Value).Interface",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.Session).Start",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "471",
+						"column":  "25"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.Marshal",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "286",
+						"column":  "51"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.marshalStruct",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "521",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "(reflect.Value).Interface",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "542",
+						"column":  "79"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote (*golang.org/x/crypto/ssh.Session).Run (*golang.org/x/crypto/ssh.Session).Start golang.org/x/crypto/ssh.Marshal golang.org/x/crypto/ssh.marshalStruct (reflect.Value).Interface",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).UploadHelperToRemote"
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.Session).Run",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "558",
+						"column":  "23"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.Session).Start",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "310",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.Marshal",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "286",
+						"column":  "51"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.marshalStruct",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "521",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "(reflect.Value).Interface",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "542",
+						"column":  "79"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll (*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1 (*github.com/sa6mwa/sshtun.SSHTUN).Open (*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling (*golang.org/x/crypto/ssh.Session).Start golang.org/x/crypto/ssh.Marshal golang.org/x/crypto/ssh.marshalStruct (reflect.Value).Interface",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll"
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).OpenAll$1",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "228",
+						"column":  "3"
+					}
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).Open",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "230",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.SSHTUN).StartTunneling",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "423",
+						"column":  "28"
+					}
+				},
+				{
+					"name":  "(*golang.org/x/crypto/ssh.Session).Start",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "471",
+						"column":  "25"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.Marshal",
+					"site":  {
+						"filename":  "session.go",
+						"line":  "286",
+						"column":  "51"
+					}
+				},
+				{
+					"name":  "golang.org/x/crypto/ssh.marshalStruct",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "521",
+						"column":  "22"
+					}
+				},
+				{
+					"name":  "(reflect.Value).Interface",
+					"site":  {
+						"filename":  "messages.go",
+						"line":  "542",
+						"column":  "79"
+					}
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_TRANSITIVE"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "(*github.com/sa6mwa/sshtun.Tunnels).SaveConfig (*encoding/json.Encoder).Encode (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode",
+			"path":  [
+				{
+					"name":  "(*github.com/sa6mwa/sshtun.Tunnels).SaveConfig"
+				},
+				{
+					"name":  "(*encoding/json.Encoder).Encode",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "209",
+						"column":  "26"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).marshal",
+					"site":  {
+						"filename":  "stream.go",
+						"line":  "209",
+						"column":  "18"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).reflectValue",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "297",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode$bound",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "321",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode"
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		},
+		{
+			"packageName":  "sshtun",
+			"capability":  "CAPABILITY_REFLECT",
+			"depPath":  "(github.com/sa6mwa/sshtun.Duration).MarshalJSON encoding/json.Marshal (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode",
+			"path":  [
+				{
+					"name":  "(github.com/sa6mwa/sshtun.Duration).MarshalJSON"
+				},
+				{
+					"name":  "encoding/json.Marshal",
+					"site":  {
+						"filename":  "sshtun.go",
+						"line":  "91",
+						"column":  "21"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).marshal",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "163",
+						"column":  "18"
+					}
+				},
+				{
+					"name":  "(*encoding/json.encodeState).reflectValue",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "297",
+						"column":  "16"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode$bound",
+					"site":  {
+						"filename":  "encode.go",
+						"line":  "321",
+						"column":  "17"
+					}
+				},
+				{
+					"name":  "(encoding/json.floatEncoder).encode"
+				}
+			],
+			"packageDir":  "github.com/sa6mwa/sshtun",
+			"capabilityType":  "CAPABILITY_TYPE_DIRECT"
+		}
+	],
+	"moduleInfo":  [
+		{
+			"path":  "github.com/alessio/shellescape",
+			"version":  "v1.4.2"
+		},
+		{
+			"path":  "golang.org/x/crypto",
+			"version":  "v0.20.0"
+		}
+	],
+	"packageInfo":  [
+		{
+			"path":  "github.com/alessio/shellescape"
+		},
+		{
+			"path":  "github.com/sa6mwa/sshtun"
+		},
+		{
+			"path":  "github.com/sa6mwa/sshtun/internal/pkg/crand"
+		},
+		{
+			"path":  "github.com/sa6mwa/sshtun/pkg/tun"
+		},
+		{
+			"path":  "golang.org/x/crypto/blowfish"
+		},
+		{
+			"path":  "golang.org/x/crypto/chacha20",
+			"ignoredFiles":  [
+				"chacha_arm64.go",
+				"chacha_ppc64le.go",
+				"chacha_s390x.go",
+				"chacha_arm64.s",
+				"chacha_ppc64le.s",
+				"chacha_s390x.s"
+			]
+		},
+		{
+			"path":  "golang.org/x/crypto/curve25519",
+			"ignoredFiles":  [
+				"curve25519_compat.go"
+			]
+		},
+		{
+			"path":  "golang.org/x/crypto/internal/alias",
+			"ignoredFiles":  [
+				"alias_purego.go"
+			]
+		},
+		{
+			"path":  "golang.org/x/crypto/internal/poly1305",
+			"ignoredFiles":  [
+				"mac_noasm.go",
+				"sum_ppc64le.go",
+				"sum_s390x.go",
+				"sum_ppc64le.s",
+				"sum_s390x.s"
+			]
+		},
+		{
+			"path":  "golang.org/x/crypto/ssh"
+		},
+		{
+			"path":  "golang.org/x/crypto/ssh/agent"
+		},
+		{
+			"path":  "golang.org/x/crypto/ssh/internal/bcrypt_pbkdf"
+		}
+	]
+}
