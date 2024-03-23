@@ -171,7 +171,10 @@ func LoadConfigOrReturnDefault(configJson string, logger *slog.Logger) *Tunnels 
 }
 
 func DefaultConfig(logger *slog.Logger) *Tunnels {
-	return &Tunnels{Tunnels: []*SSHTUN{NewSecureShellTunneler(logger)}}
+	return &Tunnels{
+		Tunnels: []*SSHTUN{NewSecureShellTunneler(SetLogger(logger))},
+		log:     SetLogger(logger),
+	}
 }
 
 func LoadAndSave(configJson string, logger *slog.Logger) (*Tunnels, error) {

@@ -1,6 +1,7 @@
 package sshtun
 
 import (
+	"context"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -8,6 +9,8 @@ import (
 	"os"
 	"reflect"
 	"testing"
+
+	"github.com/sa6mwa/sshtun/sshtest"
 )
 
 func TestNewSecureShellTunneler(t *testing.T) {
@@ -76,6 +79,34 @@ func TestTunnels_SaveConfig(t *testing.T) {
 		t.Error(err)
 	}
 }
+
+func TestTunnels_OpenAll(t *testing.T) {
+	remoteAddr := "127.43.2.1:55327"
+
+	st := DefaultConfig(nil)
+	st.Tunnels[0].Enable = true
+	st.Tunnels[0].LocalNetwork = "127.43.0.1/24"
+	st.Tunnels[0].RemoteNetwork = "127.43.1.1/24"
+	st.Tunnels[0].LocalTunDevice = "localtun"
+	st.Tunnels[0].RemoteTunDevice = "remotetun"
+	st.Tunnels[0].Remote = remoteAddr
+
+	hp := sshtest.NewHoneyPot(remoteAddr)
+	go func() {
+		hp.ListenAndServe()
+	}()
+	t.Cleanup(func() {
+		hp.Close()
+	})
+
+	hp.SetReturnString("hello world")
+
+	if err := st.OpenAll(context.Background()); err != nil {
+		t.Fatal(err)
+	}
+}
+
+// Helper functions...
 
 func compareTunnels(t1 *Tunnels, t2 *Tunnels) error {
 	if t1 == nil || t2 == nil {

@@ -46,7 +46,7 @@ func main() {
 	flag.BoolVar(&installSystemdUnit, "install", installSystemdUnit, "Install sshtun as a systemd service, use -edit-unit to generate an example unit")
 	flag.BoolVar(&uninstallSystemdUnit, "uninstall", uninstallSystemdUnit, "Uninstall sshtun as a systemd service and remove unit file")
 	flag.StringVar(&systemctl, "systemctl", systemctl, "If issuing -install, `path` to systemctl")
-	flag.StringVar(&logLevel, "level", logLevel, fmt.Sprintf("Set log level, can be %s, %s, %s or %s", slog.LevelDebug.String(), slog.LevelInfo.String(), slog.LevelWarn.String(), slog.LevelError.String()))
+	flag.StringVar(&logLevel, "level", logLevel, fmt.Sprintf("Set log level, can be %s, %s, %s, %s or %s", slog.LevelDebug.String(), slog.LevelInfo.String(), slog.LevelWarn.String(), slog.LevelError.String(), "OFF"))
 
 	flag.Parse()
 
