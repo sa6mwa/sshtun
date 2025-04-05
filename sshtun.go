@@ -19,7 +19,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/alessio/shellescape"
+	//"github.com/alessio/shellescape"
+	"al.essio.dev/pkg/shellescape"
 	"github.com/sa6mwa/sshtun/internal/pkg/crand"
 	"github.com/sa6mwa/sshtun/pkg/tun"
 	"golang.org/x/crypto/ssh"
@@ -92,7 +93,7 @@ func (d Duration) MarshalJSON() ([]byte, error) {
 }
 
 func (d *Duration) UnmarshalJSON(b []byte) error {
-	var v interface{}
+	var v any
 	if err := json.Unmarshal(b, &v); err != nil {
 		return err
 	}
@@ -128,7 +129,7 @@ func NewSecureShellTunneler(logger *slog.Logger) *SSHTUN {
 		Enable:          false,
 		UseSSHAgent:     false,
 		PrivateKeyFiles: []string{
-			"~/.ssh/id_rsa",
+			"~/.ssh/id_ed25519",
 		},
 		RemoteSCP:              USR_BIN_SCP,
 		KeepaliveInterval:      Duration(2 * time.Minute),
@@ -569,14 +570,14 @@ func (s *SSHTUN) UploadHelperToRemote(client *ssh.Client, remoteDirectory string
 	return nil
 }
 
-func sshrun(client *ssh.Client, cmd string) error {
-	session, err := client.NewSession()
-	if err != nil {
-		return err
-	}
-	defer session.Close()
-	return session.Run(cmd)
-}
+// func sshrun(client *ssh.Client, cmd string) error {
+// 	session, err := client.NewSession()
+// 	if err != nil {
+// 		return err
+// 	}
+// 	defer session.Close()
+// 	return session.Run(cmd)
+// }
 
 // Dial connects to ssh-agent (if s.UseSSHAgent is true), retrieves
 // signers or privatekeys from key files and ssh.Dials SSHTUN.Remote

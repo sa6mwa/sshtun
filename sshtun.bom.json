@@ -1,36 +1,36 @@
 {
-  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
-  "specVersion": "1.4",
-  "serialNumber": "urn:uuid:81a52039-e3ed-4fa2-917a-51313ed27ae5",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:349e84ad-ced5-4163-ac73-8dec7099f496",
   "version": 1,
   "metadata": {
-    "timestamp": "2024-03-03T22:23:12+01:00",
+    "timestamp": "2025-04-05T19:34:37+02:00",
     "tools": [
       {
         "vendor": "CycloneDX",
         "name": "cyclonedx-gomod",
-        "version": "v1.6.0",
+        "version": "v1.9.0",
         "hashes": [
           {
             "alg": "MD5",
-            "content": "60a6f5c913bdb6935f5b4342d77767e2"
+            "content": "09a09235d7e9a180164020f49b24ce32"
           },
           {
             "alg": "SHA-1",
-            "content": "ec96c64e993f1ccc611faa51272833b861f02f0a"
+            "content": "989cd4015a24f75e608e9bb9cf77b32131de3f9e"
           },
           {
             "alg": "SHA-256",
-            "content": "4145b2daea55b562b30af01e5af4bb650f84a5523d1fadeb2e8bab9c5ab08d41"
+            "content": "85458b7fda9ef99477b55a49cadb9d0b281bd6a09cd3722802758fd0e834be9f"
           },
           {
             "alg": "SHA-384",
-            "content": "b20ef6ff1308900b2e1eb53021a89715b37da2f45d927c19e52becbf587df0555b81ed35a1a7b3eabfefa929527d1a44"
+            "content": "c746905c46728993a9d1bfb5ab944e6e434223e52b654b6a9ee08a7194623dabd28638e2cf4dea2513e1617ad6986935"
           },
           {
             "alg": "SHA-512",
-            "content": "cfcaa2ca3d61e6f6f2ae2784d19fdee36cc43627c1ccc980a65b18e674923f7be5eeb19bd9ea157d5ca5159fd3c0819524b5be9bea15103416623064d061fb57"
+            "content": "b421ca3b690fdc00913ec75618e6203ffaa9064c1f418dc5c791cc33fd921927b0d2e7e04b4ecfa5300e068a69038aaecc2db284807306b98a253c691f761aca"
           }
         ],
         "externalReferences": [
@@ -46,11 +46,11 @@
       }
     ],
     "component": {
-      "bom-ref": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.1-0.20231012233000-0bcf86050749?type=module#cmd/sshtun",
+      "bom-ref": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.1?type=module#cmd/sshtun",
       "type": "application",
       "name": "github.com/sa6mwa/sshtun",
-      "version": "v0.1.1-0.20231012233000-0bcf86050749",
-      "purl": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.1-0.20231012233000-0bcf86050749?type=module\u0026goos=linux\u0026goarch=amd64#cmd/sshtun",
+      "version": "v0.1.1",
+      "purl": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.1?type=module\u0026goos=linux\u0026goarch=amd64#cmd/sshtun",
       "externalReferences": [
         {
           "url": "https://github.com/sa6mwa/sshtun",
@@ -72,33 +72,33 @@
         },
         {
           "name": "cdx:gomod:build:env:GOVERSION",
-          "value": "go1.22.0"
+          "value": "go1.24.1"
         }
       ],
       "components": [
         {
           "type": "library",
           "name": "github.com/sa6mwa/sshtun",
-          "version": "v0.1.1-0.20231012233000-0bcf86050749",
-          "purl": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.1-0.20231012233000-0bcf86050749?type=package"
+          "version": "v0.1.1",
+          "purl": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.1?type=package"
         },
         {
           "type": "library",
           "name": "github.com/sa6mwa/sshtun/cmd/sshtun",
-          "version": "v0.1.1-0.20231012233000-0bcf86050749",
-          "purl": "pkg:golang/github.com/sa6mwa/sshtun/cmd/sshtun@v0.1.1-0.20231012233000-0bcf86050749?type=package"
+          "version": "v0.1.1",
+          "purl": "pkg:golang/github.com/sa6mwa/sshtun/cmd/sshtun@v0.1.1?type=package"
         },
         {
           "type": "library",
           "name": "github.com/sa6mwa/sshtun/internal/pkg/crand",
-          "version": "v0.1.1-0.20231012233000-0bcf86050749",
-          "purl": "pkg:golang/github.com/sa6mwa/sshtun/internal/pkg/crand@v0.1.1-0.20231012233000-0bcf86050749?type=package"
+          "version": "v0.1.1",
+          "purl": "pkg:golang/github.com/sa6mwa/sshtun/internal/pkg/crand@v0.1.1?type=package"
         },
         {
           "type": "library",
           "name": "github.com/sa6mwa/sshtun/pkg/tun",
-          "version": "v0.1.1-0.20231012233000-0bcf86050749",
-          "purl": "pkg:golang/github.com/sa6mwa/sshtun/pkg/tun@v0.1.1-0.20231012233000-0bcf86050749?type=package"
+          "version": "v0.1.1",
+          "purl": "pkg:golang/github.com/sa6mwa/sshtun/pkg/tun@v0.1.1?type=package"
         }
       ],
       "evidence": {
@@ -114,30 +114,24 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:golang/github.com/alessio/shellescape@v1.4.2?type=module",
+      "bom-ref": "pkg:golang/al.essio.dev/pkg/shellescape@v1.6.0?type=module",
       "type": "library",
-      "name": "github.com/alessio/shellescape",
-      "version": "v1.4.2",
+      "name": "al.essio.dev/pkg/shellescape",
+      "version": "v1.6.0",
       "scope": "required",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "3073df694f9d749d3f6d85a98087949d052a2ab949d52ec17c460f338b84a0cd"
+          "content": "37115c12acc548454218ddb2abb1eebfff61c8210655afd39dc9ce38105e5c70"
         }
       ],
-      "purl": "pkg:golang/github.com/alessio/shellescape@v1.4.2?type=module\u0026goos=linux\u0026goarch=amd64",
-      "externalReferences": [
-        {
-          "url": "https://github.com/alessio/shellescape",
-          "type": "vcs"
-        }
-      ],
+      "purl": "pkg:golang/al.essio.dev/pkg/shellescape@v1.6.0?type=module\u0026goos=linux\u0026goarch=amd64",
       "components": [
         {
           "type": "library",
-          "name": "github.com/alessio/shellescape",
-          "version": "v1.4.2",
-          "purl": "pkg:golang/github.com/alessio/shellescape@v1.4.2?type=package"
+          "name": "al.essio.dev/pkg/shellescape",
+          "version": "v1.6.0",
+          "purl": "pkg:golang/al.essio.dev/pkg/shellescape@v1.6.0?type=package"
         }
       ],
       "evidence": {
@@ -151,73 +145,73 @@
       }
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.20.0?type=module",
+      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.36.0?type=module",
       "type": "library",
       "name": "golang.org/x/crypto",
-      "version": "v0.20.0",
+      "version": "v0.36.0",
       "scope": "required",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "8e600c249657af92a20b0d3975f60af509ea6aa28b6178a3536de5b0475c42a8"
+          "content": "027004be10dd76f05da58fae47e3321e6b99cf336a5d27bf1afb837a86f92f7e"
         }
       ],
-      "purl": "pkg:golang/golang.org/x/crypto@v0.20.0?type=module\u0026goos=linux\u0026goarch=amd64",
+      "purl": "pkg:golang/golang.org/x/crypto@v0.36.0?type=module\u0026goos=linux\u0026goarch=amd64",
       "components": [
         {
           "type": "library",
           "name": "golang.org/x/crypto/blowfish",
-          "version": "v0.20.0",
-          "purl": "pkg:golang/golang.org/x/crypto/blowfish@v0.20.0?type=package"
+          "version": "v0.36.0",
+          "purl": "pkg:golang/golang.org/x/crypto/blowfish@v0.36.0?type=package"
         },
         {
           "type": "library",
           "name": "golang.org/x/crypto/chacha20",
-          "version": "v0.20.0",
-          "purl": "pkg:golang/golang.org/x/crypto/chacha20@v0.20.0?type=package"
+          "version": "v0.36.0",
+          "purl": "pkg:golang/golang.org/x/crypto/chacha20@v0.36.0?type=package"
         },
         {
           "type": "library",
           "name": "golang.org/x/crypto/curve25519",
-          "version": "v0.20.0",
-          "purl": "pkg:golang/golang.org/x/crypto/curve25519@v0.20.0?type=package"
+          "version": "v0.36.0",
+          "purl": "pkg:golang/golang.org/x/crypto/curve25519@v0.36.0?type=package"
         },
         {
           "type": "library",
           "name": "golang.org/x/crypto/internal/alias",
-          "version": "v0.20.0",
-          "purl": "pkg:golang/golang.org/x/crypto/internal/alias@v0.20.0?type=package"
+          "version": "v0.36.0",
+          "purl": "pkg:golang/golang.org/x/crypto/internal/alias@v0.36.0?type=package"
         },
         {
           "type": "library",
           "name": "golang.org/x/crypto/internal/poly1305",
-          "version": "v0.20.0",
-          "purl": "pkg:golang/golang.org/x/crypto/internal/poly1305@v0.20.0?type=package"
+          "version": "v0.36.0",
+          "purl": "pkg:golang/golang.org/x/crypto/internal/poly1305@v0.36.0?type=package"
         },
         {
           "type": "library",
           "name": "golang.org/x/crypto/ssh",
-          "version": "v0.20.0",
-          "purl": "pkg:golang/golang.org/x/crypto/ssh@v0.20.0?type=package"
+          "version": "v0.36.0",
+          "purl": "pkg:golang/golang.org/x/crypto/ssh@v0.36.0?type=package"
         },
         {
           "type": "library",
           "name": "golang.org/x/crypto/ssh/agent",
-          "version": "v0.20.0",
-          "purl": "pkg:golang/golang.org/x/crypto/ssh/agent@v0.20.0?type=package"
+          "version": "v0.36.0",
+          "purl": "pkg:golang/golang.org/x/crypto/ssh/agent@v0.36.0?type=package"
         },
         {
           "type": "library",
           "name": "golang.org/x/crypto/ssh/internal/bcrypt_pbkdf",
-          "version": "v0.20.0",
-          "purl": "pkg:golang/golang.org/x/crypto/ssh/internal/bcrypt_pbkdf@v0.20.0?type=package"
+          "version": "v0.36.0",
+          "purl": "pkg:golang/golang.org/x/crypto/ssh/internal/bcrypt_pbkdf@v0.36.0?type=package"
         }
       ],
       "evidence": {
         "licenses": [
           {
             "license": {
-              "id": "BSD-3-Clause"
+              "id": "BSD-Source-Code"
             }
           }
         ]
@@ -226,17 +220,17 @@
   ],
   "dependencies": [
     {
-      "ref": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.1-0.20231012233000-0bcf86050749?type=module#cmd/sshtun",
+      "ref": "pkg:golang/github.com/sa6mwa/sshtun@v0.1.1?type=module#cmd/sshtun",
       "dependsOn": [
-        "pkg:golang/github.com/alessio/shellescape@v1.4.2?type=module",
-        "pkg:golang/golang.org/x/crypto@v0.20.0?type=module"
+        "pkg:golang/al.essio.dev/pkg/shellescape@v1.6.0?type=module",
+        "pkg:golang/golang.org/x/crypto@v0.36.0?type=module"
       ]
     },
     {
-      "ref": "pkg:golang/github.com/alessio/shellescape@v1.4.2?type=module"
+      "ref": "pkg:golang/al.essio.dev/pkg/shellescape@v1.6.0?type=module"
     },
     {
-      "ref": "pkg:golang/golang.org/x/crypto@v0.20.0?type=module"
+      "ref": "pkg:golang/golang.org/x/crypto@v0.36.0?type=module"
     }
   ]
 }

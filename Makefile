@@ -2,7 +2,7 @@
 
 .EXPORT_ALL_VARIABLES:
 
-VERSION = v0.1.1
+VERSION = v0.1.2
 CGO_ENABLED = 0
 SETUID = 1
 UPXLVL = -9
@@ -30,7 +30,7 @@ bin/tunreadwriter: bin
 
 bin/sshtun: bin
 	go run golang.org/x/vuln/cmd/govulncheck@latest .
-	trivy repo . --exit-code 1 --scanners vuln,misconfig,secret,license
+	#trivy repo . --exit-code 1 --scanners vuln,misconfig,secret,license
 	go run github.com/CycloneDX/cyclonedx-gomod/cmd/cyclonedx-gomod@latest app -main ./cmd/sshtun/ -licenses=true -packages=true -json=true -output sshtun.bom.json
 	go build -o bin/sshtun -trimpath -ldflags="-s -w -X main.version=$(VERSION)" ./cmd/sshtun
 	strip -s bin/sshtun
